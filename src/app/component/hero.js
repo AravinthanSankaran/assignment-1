@@ -13,7 +13,7 @@ export default function HeroSection() {
         </p>
         <Link
          href={""}
-          className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-full text-lg md:text-xl cursor-pointer"
+          className="mt-8 px-6 py-3 bg-primary hover:bg-blue-600 rounded-full text-lg md:text-xl cursor-pointer"
         >
           Get Our product
         </Link>

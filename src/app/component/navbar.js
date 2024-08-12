@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="flex flex-wrap items-center justify-between z-10 fixed bg-white w-full h-20">
       <div className="lg:text-xl p-2 mr-4 inline-flex items-center font-bold">
-        <Link href="/" className="text-3xl text-cyan-500">
+        <Link href="/" className="text-3xl text-cyan-500 hover:text-primary">
           Navigation
         </Link>
       </div>
@@ -50,10 +50,10 @@ const Header = () => {
           <Link href="/" className="lg:inline-flex hover:text-cyan-500 md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer" onClick={handleClick}>
             About
           </Link>
-          <Link href="/" className="lg:inline-flex hover:text-cyan-500 md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer" onClick={handleClick}>
+          <Link href="/contact" className="lg:inline-flex hover:text-cyan-500 md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer" onClick={handleClick}>
             Contact
           </Link>
-          <Link href="/login" className="lg:inline-flex md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer hover:bg-cyan-400 rounded-full hover:text-white" onClick={handleClick}>
+          <Link href="/login" className="lg:inline-flex md:text-base md:p-0 lg:py-3 md:px-3 cursor-pointer hover:bg-primary rounded-2xl hover:text-white" onClick={handleClick}>
             Login
           </Link>
         </div>
