@@ -13,7 +13,14 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors:{
-        primary:"#a881af"
+        primary:"#101426",
+        btnsignup:"#ff770014",
+        btnsignuphover:"#ff770029",
+        bgfilternumber:"#1a2138",
+        bgfilterbtn:"#02ED6C"
+      },
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
       }
     },
   },
