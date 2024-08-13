@@ -1,12 +1,14 @@
-import React from 'react'
-import Contact from "./contact"
+import React from "react";
+import Contact from "./contact";
+import Hero from "./hero";
 
 function page() {
   return (
     <div>
-        <Contact />
+      <Hero />
+      <Contact />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

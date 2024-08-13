@@ -53,7 +53,7 @@ const Header = () => {
           <Link href="/contact" className="lg:inline-flex hover:text-cyan-500 md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer" onClick={handleClick}>
             Contact
           </Link>
-          <Link href="/login" className="lg:inline-flex md:text-base md:p-0 lg:py-3 md:px-3 cursor-pointer hover:bg-primary rounded-2xl hover:text-white" onClick={handleClick}>
+          <Link href="/login" className="lg:inline-flex md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer hover:bg-primary rounded-3xl hover:text-white" onClick={handleClick}>
             Login
           </Link>
         </div>
