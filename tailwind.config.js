@@ -17,7 +17,10 @@ module.exports = {
         btnsignup:"#ff770014",
         btnsignuphover:"#ff770029",
         bgfilternumber:"#1a2138",
-        bgfilterbtn:"#02ED6C"
+        bgfilterbtn:"#0E3530",
+        calendercard:"#00203E",
+        filtertext:"#03E369",
+      
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],

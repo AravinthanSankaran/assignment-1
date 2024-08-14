@@ -18,7 +18,7 @@ export default function Sidebar() {
 
   return (
     <div className="flex flex-col md:flex-row">
-      <div className="fixed md:static z-10 flex flex-col w-full lg:w-64 text-gray-200">
+      <div className="md:static z-10 flex flex-col w-full lg:w-64 text-gray-200">
         <div className="flex-shrink-0 flex flex-row items-center justify-between">
           <div className="flex mt-3 md:hidden">
             <IoIosArrowBack className="w-3 h-3 mx-1 mt-1 text-white" />
@@ -46,14 +46,14 @@ export default function Sidebar() {
             </svg>
           </button>
         </div>
-        <hr class="h-px block md:hidden my-4 border-0 bg-gray-700"/>
+        <hr class="h-px block z-10 md:hidden my-4 border-0 bg-gray-700"/>
         <nav
-          className={`flex-grow md:block w-64 left-7 px-4 pb-4 md:pb-0 overflow-y-auto ${
+          className={`flex-grow md:block w-64 left-7 px-4 pb-4 md:pb-0 overflow-y-auto  bg-primary ${
             open ? "block" : "hidden"
           }`}
         >
           <a
-            className="flex p-4 font-roboto text-base rounded-lg bg-btnsignuphover text-white "
+            className="flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup  text-white "
             href="/"
           >
             <MdOutlineDashboard className="mr-6 w-6 h-6" />
