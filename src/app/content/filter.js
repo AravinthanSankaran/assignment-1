@@ -173,14 +173,20 @@ const Data = [
 ];
 
 function Filter() {
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("Filter By Type");
   const [searchTerm, setSearchTerm] = useState("");
+  const [dropdownVisible, setDropdownVisible] = useState(false);
 
   const filteredItems = Data.filter((item) =>
-    filter === "All" ? true : item.type === filter
+    filter ===  "Filter By Type"? true : item.type === filter
   ).filter((item) =>
     item.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  const handleSelect = (e) => {
+    setFilter(e.target.value);
+    setDropdownVisible(false);
+  };
 
   return (
     <section id="project" className="min-h-screen">
@@ -191,7 +197,7 @@ function Filter() {
             {filteredItems.length}
           </span>
         </h2>
-        <div className="flex items-center mb-4">
+        <div className="flex items-center mb-4 border-[0.5px] p-7">
           <div className="relative flex-grow mr-4">
             <input
               type="text"
@@ -204,26 +210,50 @@ function Filter() {
           </div>
           <div className="relative">
             <button
-              onClick={() => setFilter(filter === "All" ? "Course" : filter === "Course" ? "Test" : "All")}
-              className="bg-green-500 text-white px-4 py-2 rounded-md"
+              onClick={() => setFilter(filter === "All" ? "Filter By Type" : "All")}
+              className="bg-gray-300 text-black px-4 py-2 rounded-md cursor-pointer"
             >
-              FILTER BY TYPE: {filter}
+              {filter === "All" ? "Filter By Type" : filter}
             </button>
+            {filter !== "All" && (
+              <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg">
+                <ul className="py-1">
+                  <li
+                    onClick={() => setFilter("Filter By Type")}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+                  >
+                    All
+                  </li>
+                  <li
+                    onClick={() => setFilter("Course")}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Course
+                  </li>
+                  <li
+                    onClick={() => setFilter("Test")}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Test
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 gap-8 overflow-y-auto h-screen">
           {filteredItems.map((data) => (
             <div
               key={data.id}
-              className="p-3 text-white border-1 rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-3"
+              className="text-white border-1 rounded-lg  grid grid-cols-1 lg:grid-cols-3"
             >
-              <div className="col-span-1 place-self-center lg:col-span-1">
+              <div className="hover:animate-swing">
                 <Image
                   src={data.image}
                   alt="Content Thumbnail"
-                  className="object-contain"
-                  width={300}  // Adjust width and height as needed
-                  height={200}
+                  className="swing-animation"
+                  width={200} // Adjust width and height as needed
+                  height={100}
                 />
               </div>
               <div className="col-span-1 lg:col-span-2 flex flex-col justify-between p-4">
@@ -243,4 +273,3 @@ function Filter() {
 }
 
 export default Filter;
-

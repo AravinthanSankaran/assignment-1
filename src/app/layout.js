@@ -18,7 +18,6 @@ export default function RootLayout({ children }) {
       <body className="bg-primary">
       <Navigation />
         <div className="flex flex-col md:flex-row">
-         
           <Sidebar />
           {children}
         </div>
