@@ -22,7 +22,7 @@
   }
 }
 
-.container{
+.container {
   padding: 0px 25px;
 }
 
@@ -47,17 +47,8 @@
 }
 
 .description-container {
-  /* Ensure the container has a fixed width or max-width */
-  max-width: 100%; /* or a specific width like 300px */
-  overflow: hidden; /* Hide overflowing text */
-  text-overflow: ellipsis; /* Show ellipsis when text overflows */
-  white-space: nowrap; /* Prevent text from wrapping */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-
-/* .fc-button-primary .fc-button .fc-today-button{
-  @apply capitalize
-} */
-
-/* .nav-menu {
-@apply lg:inline-flex hover:text-cyan-500 md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer;
-} */

@@ -1,14 +1,12 @@
-import React from 'react'
-import Content from "./contentfilter"
-import Filter from "./filter"
+import React from "react";
+import Filter from "./filter";
 
 function page() {
   return (
     <div>
-        {/* <Content /> */}
-        <Filter />
+      <Filter />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

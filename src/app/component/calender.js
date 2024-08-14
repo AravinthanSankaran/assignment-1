@@ -1,88 +1,4 @@
-// "use client";
-
-// import FullCalendar from "@fullcalendar/react";
-// import dayGridPlugin from "@fullcalendar/daygrid";
-// import { useState } from "react";
-
-// export default function Calendar() {
-//   const [view, setView] = useState("dayGridWeek");
-
-//   // Your event data with additional details
-//   const events = [
-//     { title: "Event 1", date: "2024-08-15", id: "1" },
-//     { title: "Event 2", date: "2024-08-16", id: "2" },
-//     { title: "Event 3", date: "2024-08-17", id: "3" },
-//   ];
-
-//   // Event details
-//   const eventDetails = {
-//     1: {
-//       type: "video",
-//       title: "Container with most water",
-//       event: {
-//         description: "Interview preparation with JavaScript batch 2",
-//         date: "21 Aug 2024",
-//         day: "Wednesday",
-//         time: "7:00 AM"
-//       }
-//     },
-//     2: {
-//       type: "article",
-//       title: "Understanding Async/Await",
-//       event: {
-//         description: "Deep dive into asynchronous JavaScript",
-//         date: "22 Aug 2024",
-//         day: "Thursday",
-//         time: "10:00 AM"
-//       }
-//     },
-//     3: {
-//       type: "workshop",
-//       title: "React Hooks Workshop",
-//       event: {
-//         description: "Hands-on workshop on React Hooks",
-//         date: "23 Aug 2024",
-//         day: "Friday",
-//         time: "2:00 PM"
-//       }
-//     }
-//   };
-
-//   // Custom rendering for event content
-//   const renderEventContent = (eventInfo) => {
-//     const eventId = eventInfo.event.id;
-//     const details = eventDetails[eventId];
-
-//     return (
-//       <div className="flex flex-col">
-//         <div className="font-bold">{eventInfo.event.title}</div>
-//         <div className="text-sm">{details.event.description}</div>
-//         <div className="text-xs">{details.event.date} {details.event.time}</div>
-//       </div>
-//     );
-//   };
-
-//   return (
-//     <div className="w-full text-white p-5 font-roboto h-[75vh] overflow-y-auto">
-//       <FullCalendar
-//         plugins={[dayGridPlugin]}
-//         initialView={view}
-//         headerToolbar={{
-//           left: "prev,next",
-//           center: "title",
-//           right: "today",
-//         }}
-//         events={events}
-//         eventContent={renderEventContent} // Use custom rendering for event content
-//         contentHeight="auto"
-//         height="100%"
-//       />
-//     </div>
-//   );
-// }
-
 "use client";
-
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import Link from "next/link";
@@ -112,7 +28,9 @@ export default function Calendar() {
     setIsPopupOpen(false);
     setPopupContent(null);
   };
+
   // Fetch events and event details from JSON files
+
   const fetchData = useCallback(async () => {
     try {
       const eventsResponse = await fetch("/data/events.json");
@@ -137,7 +55,6 @@ export default function Calendar() {
     return eventDateObj < today;
   };
 
-  // Custom rendering for event content
   const renderEventContent = (eventInfo) => {
     const eventId = eventInfo.event.id;
     const details = eventDetails[eventId] || {};
@@ -148,15 +65,18 @@ export default function Calendar() {
           {details.event?.description}
         </div>
         <div className="flex items-center">
-          <FaVideo className="font-bold mr-2 text-blue-500 w-6 h-6"/>
+          <FaVideo className="font-bold mr-2 text-blue-500 w-6 h-6" />
           <div className="font-bold description-container">
             {eventInfo.event.title}
           </div>
         </div>
-        {/* <div className="font-bold">{eventInfo.event.title}</div> */}
+
         <div className="text-xs">{details.event?.time}</div>
         {isPastEvent(details.event?.date) && (
-          <Link href={"/content"} className="ml-0 md:ml-2 mt-2 text-blue-500 bg-white md:p-[2px] font-semibold border-2 border-blue-500 rounded-lg font-roboto text-center cursor-pointer">
+          <Link
+            href={"/content"}
+            className="ml-0 md:ml-2 mt-2 text-blue-500 bg-white hover:bg-primary md:p-[2px] font-semibold border-2 border-blue-500 rounded-lg font-roboto text-center cursor-pointer"
+          >
             play
           </Link>
         )}
@@ -187,9 +107,7 @@ export default function Calendar() {
             <div className="absolute inset-0 bg-[#C3C4C9] opacity-50"></div>
             <div className="relative bg-gray-800  text-white p-5 rounded shadow-lg w-96">
               <div className="flex flex-col">
-                {/* Top row with video icon, video text, and close button */}
                 <div className="flex justify-between items-center">
-                  {/* Video icon and text */}
                   <div className="flex items-center">
                     <IoPlayCircleOutline className="text-blue-500" />
                     <p className="ml-2">{popupContent.type}</p>
@@ -204,7 +122,6 @@ export default function Calendar() {
                     onClick={closePopup}
                   />
                 </div>
-                {/* Title below the top row */}
               </div>
               <hr className="border-black m-2 border-1" />
 
