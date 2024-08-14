@@ -53,6 +53,11 @@
   text-overflow: ellipsis; /* Show ellipsis when text overflows */
   white-space: nowrap; /* Prevent text from wrapping */
 }
+
+/* .fc-button-primary .fc-button .fc-today-button{
+  @apply capitalize
+} */
+
 /* .nav-menu {
 @apply lg:inline-flex hover:text-cyan-500 md:text-base p-5 md:p-0 lg:py-3 md:px-3 cursor-pointer;
 } */

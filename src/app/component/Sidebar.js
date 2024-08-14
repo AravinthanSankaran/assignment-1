@@ -5,16 +5,18 @@ import { IoIosArrowBack, IoMdCalendar } from "react-icons/io";
 import { MdOutlineDashboard } from "react-icons/md";
 import { GoBook } from "react-icons/go";
 import { GiDiscussion } from "react-icons/gi";
-import { CiCircleInfo } from "react-icons/ci";
 import { GrCircleQuestion } from "react-icons/gr";
-import { IoChatbox } from "react-icons/io5";
-import { GrProjects } from "react-icons/gr";
-import { MdContactPhone, MdEmail, MdWork } from "react-icons/md";
-import { FaLinkedin, FaHome, FaGithub } from "react-icons/fa";
+
 import Link from "next/link";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState("Dashboard");
+
+  const handleMenuClick = (menu) => {
+    setActiveMenu(menu);
+    setOpen(false); // Optional: Close the sidebar on mobile after clicking a menu item
+  };
 
   return (
     <div className="flex flex-col md:flex-row">
@@ -30,7 +32,11 @@ export default function Sidebar() {
             className="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
             onClick={() => setOpen(!open)}
           >
-            <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6 mt-2">
+            <svg
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              className="w-6 h-6 mt-2"
+            >
               <path
                 className={!open ? "block" : "hidden"}
                 fillRule="evenodd"
@@ -46,49 +52,61 @@ export default function Sidebar() {
             </svg>
           </button>
         </div>
-        <hr class="h-px block z-10 md:hidden my-4 border-0 bg-gray-700"/>
+        <hr class="h-px block z-10 md:hidden my-4 border-0 bg-gray-700" />
         <nav
           className={`flex-grow md:block w-64 left-7 px-4 pb-4 md:pb-0 overflow-y-auto  bg-primary ${
             open ? "block" : "hidden"
           }`}
         >
-          <a
-            className="flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup  text-white "
+          <Link
+            onClick={() => handleMenuClick("Dashboard")}
+            className={`flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup text-white ${
+              activeMenu === "Dashboard" ? "bg-btnsignuphover" : ""
+            }`}
             href="/"
           >
             <MdOutlineDashboard className="mr-6 w-6 h-6" />
             <h1>Dashboard</h1>
-          </a>
+          </Link>
 
           <Link
-            className="flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup text-white "
-            href="/"
+            onClick={() => handleMenuClick("Calendar")}
+            className={`flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup text-white ${
+              activeMenu === "Calendar" ? "bg-btnsignuphover" : ""
+            }`}
+            href="/calender"
           >
             <IoMdCalendar className="mr-6 w-6 h-6" />
             <h1>Calender</h1>
           </Link>
 
-          <a
-            className="flex p-4 font-roboto text-base  rounded-lg  hover:bg-btnsignup text-white "
+          <Link
+            onClick={() => handleMenuClick("Content")}
+            className={`flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup text-white ${
+              activeMenu === "Content" ? "bg-btnsignuphover" : ""
+            }`}
             href="/content"
           >
             <GoBook className="mr-6 w-6 h-6" />
             <h1>Content</h1>
-          </a>
-          <a
+          </Link>
+          <Link
             className="flex p-4 font-roboto text-base rounded-md text-white"
             href="/"
           >
             <GiDiscussion className="mr-6 w-6 h-6 text-gray-500" />
             <h1 className="text-gray-500">Discussion</h1>
-          </a>
-          <a
-            className="flex p-4 font-roboto text-base  rounded-lg  hover:bg-btnsignup text-white "
-            href="/project"
+          </Link>
+          <Link
+            onClick={() => handleMenuClick("About")}
+            className={`flex p-4 font-roboto text-base rounded-lg hover:bg-btnsignup text-white ${
+              activeMenu === "About" ? "bg-btnsignuphover" : ""
+            }`}
+            href="/calender"
           >
             <GrCircleQuestion className="mr-6 w-6 h-6" />
             <h1>About</h1>
-          </a>
+          </Link>
         </nav>
       </div>
     </div>

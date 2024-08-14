@@ -85,6 +85,7 @@
 
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
+import Link from "next/link";
 import {
   IoPlayCircleOutline,
   IoCloseCircleOutline,
@@ -92,6 +93,7 @@ import {
   IoTimeOutline,
 } from "react-icons/io5";
 import { IoMdBook } from "react-icons/io";
+import { FaVideo } from "react-icons/fa6";
 import { useState, useEffect, useCallback } from "react";
 
 export default function Calendar() {
@@ -146,7 +148,7 @@ export default function Calendar() {
           {details.event?.description}
         </div>
         <div className="flex items-center">
-          <div className="font-bold">{eventInfo.icon}</div>
+          <FaVideo className="font-bold mr-2 text-blue-500 w-6 h-6"/>
           <div className="font-bold description-container">
             {eventInfo.event.title}
           </div>
@@ -154,9 +156,9 @@ export default function Calendar() {
         {/* <div className="font-bold">{eventInfo.event.title}</div> */}
         <div className="text-xs">{details.event?.time}</div>
         {isPastEvent(details.event?.date) && (
-          <div className="ml-0 md:ml-2 mt-2 text-blue-500 bg-white md:p-[2px] font-semibold border-2 border-blue-500 rounded-lg font-roboto text-center cursor-pointer">
+          <Link href={"/content"} className="ml-0 md:ml-2 mt-2 text-blue-500 bg-white md:p-[2px] font-semibold border-2 border-blue-500 rounded-lg font-roboto text-center cursor-pointer">
             play
-          </div>
+          </Link>
         )}
       </div>
     );
@@ -180,9 +182,10 @@ export default function Calendar() {
       />
       {isPopupOpen && (
         <>
-          <div className=" bg-white opacity-70"/>
+          <div className="" />
           <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div className="bg-gray-800 text-white p-5 rounded shadow-lg w-96">
+            <div className="absolute inset-0 bg-[#C3C4C9] opacity-50"></div>
+            <div className="relative bg-gray-800  text-white p-5 rounded shadow-lg w-96">
               <div className="flex flex-col">
                 {/* Top row with video icon, video text, and close button */}
                 <div className="flex justify-between items-center">
@@ -191,34 +194,38 @@ export default function Calendar() {
                     <IoPlayCircleOutline className="text-blue-500" />
                     <p className="ml-2">{popupContent.type}</p>
                   </div>
-                  {/* Close button */}
+                </div>
+                <div className="flex justify-between items-center mt-2">
+                  <p className="font-roboto text-lg font-semibold mt-2 tracking-wider leading-loose ">
+                    {popupContent.event.title}
+                  </p>
                   <IoCloseCircleOutline
                     className="text-white w-9 h-9 cursor-pointer"
                     onClick={closePopup}
                   />
                 </div>
-
                 {/* Title below the top row */}
-                <p className="font-roboto text-lg font-semibold mt-2">
-                  {popupContent.event.title}
-                </p>
               </div>
               <hr className="border-black m-2 border-1" />
 
               <div className="mt-4">
                 <div className="flex items-center">
-                  <IoMdBook className="text-blue-500 mr-2" />
-                  <p>{popupContent.event.description}</p>
+                  <IoMdBook className="text-white mr-2" />
+                  <p className="tracking-wider leading-loose">
+                    {popupContent.event.description}
+                  </p>
                 </div>
                 <div className="flex items-center mt-2">
-                  <IoTodayOutline className="text-blue-500 mr-2" />
-                  <p>
+                  <IoTodayOutline className="text-white mr-2" />
+                  <p className="tracking-wider leading-loose">
                     {popupContent.event.date} || {popupContent.event.day}
                   </p>
                 </div>
                 <div className="flex items-center mt-2">
-                  <IoTimeOutline className="text-blue-500 mr-2" />
-                  <p>{popupContent.event.time}</p>
+                  <IoTimeOutline className="text-white mr-2" />
+                  <p className="tracking-wider leading-loose">
+                    {popupContent.event.time}
+                  </p>
                 </div>
               </div>
             </div>

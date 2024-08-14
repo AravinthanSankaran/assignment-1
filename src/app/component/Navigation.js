@@ -3,8 +3,8 @@ import { IoIosArrowBack } from "react-icons/io";
 
 function Navigation() {
   return (
-    <div className="hidden md:block mt-3">
-      <div className="container flex mx-auto justify-between items-center">
+    <div className="px-5 py-2 hidden md:block">
+      <div className=" flex justify-between items-center">
         <div className="flex">
           <IoIosArrowBack className="w-3 h-3 mx-1 mt-1 text-white" />
           <h1 className="text-white text-sm font-roboto">

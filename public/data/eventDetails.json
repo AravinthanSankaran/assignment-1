@@ -1,191 +1,772 @@
-
 {
-    "1": {
-      "type": "video",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Container with most water",
-        "description": "Interview preparation with JavaScript batch 2",
-        "date": "15 Aug 2024",
-        "day": "Thursday",
-        "time": "7:00 AM"
-      }
-    },
-    "2": {
-      "type": "article",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Understanding Async/Await",
-        "description": "Deep dive into asynchronous JavaScript",
-        "date": "16 Aug 2024",
-        "day": "Friday",
-        "time": "10:00 AM"
-      }
-    },
-    "3": {
-      "type": "workshop",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "React Hooks Workshop",
-        "description": "Hands-on workshop on React Hooks",
-        "date": "17 Aug 2024",
-        "day": "Saturday",
-        "time": "2:00 PM"
-      }
-    },
-    "4": {
-      "type": "video",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "JavaScript Closures Explained",
-        "description": "Exploring JavaScript closures",
-        "date": "15 Aug 2024",
-        "day": "Thursday",
-        "time": "9:00 AM"
-      }
-    },
-    "5": {
-      "type": "article",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "CSS Grid vs Flexbox",
-        "description": "Comparing CSS Grid and Flexbox",
-        "date": "15 Aug 2024",
-        "day": "Thursday",
-        "time": "11:00 AM"
-      }
-    },
-    "6": {
-      "type": "workshop",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Introduction to TypeScript",
-        "description": "Introduction to TypeScript",
-        "date": "16 Aug 2024",
-        "day": "Friday",
-        "time": "3:00 PM"
-      }
-    },
-    "7": {
-      "type": "video",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Node.js and Express Basics",
-        "description": "Basics of Node.js and Express",
-        "date": "16 Aug 2024",
-        "day": "Friday",
-        "time": "10:00 AM"
-      }
-    },
-    "8": {
-      "type": "article",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Testing in React",
-        "description": "Testing techniques in React",
-        "date": "17 Aug 2024",
-        "day": "Saturday",
-        "time": "1:00 PM"
-      }
-    },
-    "9": {
-      "type": "workshop",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "GraphQL Fundamentals",
-        "description": "Fundamentals of GraphQL",
-        "date": "17 Aug 2024",
-        "day": "Saturday",
-        "time": "4:00 PM"
-      }
-    },
-    "10": {
-      "type": "video",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Building RESTful APIs",
-        "description": "Building RESTful APIs",
-        "date": "15 Aug 2024",
-        "day": "Thursday",
-        "time": "6:00 PM"
-      }
-    },
-    "11": {
-      "type": "article",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "State Management with Redux",
-        "description": "State Management with Redux",
-        "date": "15 Aug 2024",
-        "day": "Thursday",
-        "time": "8:00 AM"
-      }
-    },
-    "12": {
-      "type": "workshop",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Async Operations in JavaScript",
-        "description": "Handling Async Operations in JavaScript",
-        "date": "16 Aug 2024",
-        "day": "Friday",
-        "time": "12:00 PM"
-      }
-    },
-    "13": {
-      "type": "video",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Optimizing React Performance",
-        "description": "Optimizing React Performance",
-        "date": "16 Aug 2024",
-        "day": "Friday",
-        "time": "9:00 AM"
-      }
-    },
-    "14": {
-      "type": "article",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Introduction to Docker",
-        "description": "Introduction to Docker",
-        "date": "17 Aug 2024",
-        "day": "Saturday",
-        "time": "11:00 AM"
-      }
-    },
-    "15": { 
-      "type": "workshop",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Version Control with Git",
-        "description": "Version Control with Git",
-        "date": "17 Aug 2024",
-        "day": "Saturday",
-        "time": "2:00 PM"
-      }
-    },
-    "16": {
-      "type": "video",
-      "icon": "IoVideocam",
-      "event": {
-        "title": "Deploying with Netlify",
-        "description": "Deploying Applications with Netlify",
-        "date": "15 Aug 2024",
-        "day": "Thursday",
-        "time": "5:00 PM"
-      }
-    },
-    "17": {
-        "type": "video",
-        "icon": "IoVideocam",
-        "event": {
-            "title": "Deploying with vercel",
-          "description": "Deploying Applications with vercel",
-          "date": "12 Aug 2024",
-          "day": "monday",
-          "time": "5:00 PM"
-        }
-      }
+  "1": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Container with most water",
+      "description": "Interview preparation with JavaScript batch 2",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "7:00 AM"
+    }
+  },
+  "2": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Understanding Async/Await",
+      "description": "Deep dive into asynchronous JavaScript",
+      "date": "16 Aug 2024",
+      "day": "Friday",
+      "time": "10:00 AM"
+    }
+  },
+  "3": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "React Hooks Workshop",
+      "description": "Hands-on workshop on React Hooks",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "2:00 PM"
+    }
+  },
+  "4": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "JavaScript Closures Explained",
+      "description": "Exploring JavaScript closures",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "9:00 AM"
+    }
+  },
+  "5": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "CSS Grid vs Flexbox",
+      "description": "Comparing CSS Grid and Flexbox",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "11:00 AM"
+    }
+  },
+  "6": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to TypeScript",
+      "description": "Introduction to TypeScript",
+      "date": "16 Aug 2024",
+      "day": "Friday",
+      "time": "3:00 PM"
+    }
+  },
+  "7": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Node.js and Express Basics",
+      "description": "Basics of Node.js and Express",
+      "date": "16 Aug 2024",
+      "day": "Friday",
+      "time": "10:00 AM"
+    }
+  },
+  "8": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Testing in React",
+      "description": "Testing techniques in React",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "1:00 PM"
+    }
+  },
+  "9": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "GraphQL Fundamentals",
+      "description": "Fundamentals of GraphQL",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "4:00 PM"
+    }
+  },
+  "10": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Building RESTful APIs",
+      "description": "Building RESTful APIs",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "6:00 PM"
+    }
+  },
+  "11": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "State Management with Redux",
+      "description": "State Management with Redux",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "8:00 AM"
+    }
+  },
+  "12": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Async Operations in JavaScript",
+      "description": "Handling Async Operations in JavaScript",
+      "date": "16 Aug 2024",
+      "day": "Friday",
+      "time": "12:00 PM"
+    }
+  },
+  "13": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Optimizing React Performance",
+      "description": "Optimizing React Performance",
+      "date": "16 Aug 2024",
+      "day": "Friday",
+      "time": "9:00 AM"
+    }
+  },
+  "14": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to Docker",
+      "description": "Introduction to Docker",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "11:00 AM"
+    }
+  },
+  "15": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Version Control with Git",
+      "description": "Version Control with Git",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "2:00 PM"
+    }
+  },
+  "16": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with Netlify",
+      "description": "Deploying Applications with Netlify",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "5:00 PM"
+    }
+  },
+  "17": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with vercel",
+      "description": "Deploying Applications with vercel",
+      "date": "12 Aug 2024",
+      "day": "monday",
+      "time": "5:00 PM"
+    }
+  },
+  "18": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Container with most water",
+      "description": "Interview preparation with JavaScript batch 2",
+      "date": "12 Aug 2024",
+      "day": "monday",
+      "time": "7:00 AM"
+    }
+  },
+  "19": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Understanding Async/Await",
+      "description": "Deep dive into asynchronous JavaScript",
+      "date": "12 Aug 2024",
+      "day": "monday",
+      "time": "10:00 AM"
+    }
+  },
+  "20": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "React Hooks Workshop",
+      "description": "Hands-on workshop on React Hooks",
+      "date": "13 Aug 2024",
+      "day": "tuesday",
+      "time": "2:00 PM"
+    }
+  },
+  "21": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "JavaScript Closures Explained",
+      "description": "Exploring JavaScript closures",
+      "date": "13 Aug 2024",
+      "day": "tuesday",
+      "time": "9:00 AM"
+    }
+  },
+  "22": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "CSS Grid vs Flexbox",
+      "description": "Comparing CSS Grid and Flexbox",
+      "date": "12 Aug 2024",
+      "day": "monday",
+      "time": "11:00 AM"
+    }
+  },
+  "23": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to TypeScript",
+      "description": "Introduction to TypeScript",
+      "date": "14 Aug 2024",
+      "day": "wednesday",
+      "time": "3:00 PM"
+    }
+  },
+  "24": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Node.js and Express Basics",
+      "description": "Basics of Node.js and Express",
+      "date": "14 Aug 2024",
+      "day": "wednesday",
+      "time": "10:00 AM"
+    }
+  },
+  "25": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Testing in React",
+      "description": "Testing techniques in React",
+      "date": "12 Aug 2024",
+      "day": "monday",
+      "time": "1:00 PM"
+    }
+  },
+  "26": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "GraphQL Fundamentals",
+      "description": "Fundamentals of GraphQL",
+      "date": "13 Aug 2024",
+      "day": "tuesday",
+      "time": "4:00 PM"
+    }
+  },
+  "27": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Building RESTful APIs",
+      "description": "Building RESTful APIs",
+      "date": "14 Aug 2024",
+      "day": "wednesday",
+      "time": "6:00 PM"
+    }
+  },
+  "28": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "State Management with Redux",
+      "description": "State Management with Redux",
+      "date": "16 Aug 2024",
+      "day": "friday",
+      "time": "8:00 AM"
+    }
+  },
+  "29": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Async Operations in JavaScript",
+      "description": "Handling Async Operations in JavaScript",
+      "date": "16 Aug 2024",
+      "day": "Friday",
+      "time": "12:00 PM"
+    }
+  },
+  "30": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Optimizing React Performance",
+      "description": "Optimizing React Performance",
+      "date": "17 Aug 2024",
+      "day": "saturday",
+      "time": "9:00 AM"
+    }
+  },
+  "31": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to Docker",
+      "description": "Introduction to Docker",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "11:00 AM"
+    }
+  },
+  "32": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Version Control with Git",
+      "description": "Version Control with Git",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
+      "time": "2:00 PM"
+    }
+  },
+  "33": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with Netlify",
+      "description": "Deploying Applications with Netlify",
+      "date": "15 Aug 2024",
+      "day": "Thursday",
+      "time": "5:00 PM"
+    }
+  },
+  "34": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with vercel",
+      "description": "Deploying Applications with vercel",
+      "date": "12 Aug 2024",
+      "day": "monday",
+      "time": "5:00 PM"
+    }
+  },
+  "34": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with vercel",
+      "description": "Deploying Applications with vercel",
+      "date": "5 Aug 2024",
+      "day": "monday",
+      "time": "5:00 PM"
+    }
+  },
+  "35": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Container with most water",
+      "description": "Interview preparation with JavaScript batch 2",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "7:00 AM"
+    }
+  },
+  "36": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Understanding Async/Await",
+      "description": "Deep dive into asynchronous JavaScript",
+      "date": "9 Aug 2024",
+      "day": "Friday",
+      "time": "10:00 AM"
+    }
+  },
+  "37": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "React Hooks Workshop",
+      "description": "Hands-on workshop on React Hooks",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "2:00 PM"
+    }
+  },
+  "38": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "JavaScript Closures Explained",
+      "description": "Exploring JavaScript closures",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "9:00 AM"
+    }
+  },
+  "39": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "CSS Grid vs Flexbox",
+      "description": "Comparing CSS Grid and Flexbox",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "11:00 AM"
+    }
+  },
+  "40": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to TypeScript",
+      "description": "Introduction to TypeScript",
+      "date": "9 Aug 2024",
+      "day": "Friday",
+      "time": "3:00 PM"
+    }
+  },
+  "41": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Node.js and Express Basics",
+      "description": "Basics of Node.js and Express",
+      "date": "9 Aug 2024",
+      "day": "Friday",
+      "time": "10:00 AM"
+    }
+  },
+  "42": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Testing in React",
+      "description": "Testing techniques in React",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "1:00 PM"
+    }
+  },
+  "43": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "GraphQL Fundamentals",
+      "description": "Fundamentals of GraphQL",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "4:00 PM"
+    }
+  },
+  "44": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Building RESTful APIs",
+      "description": "Building RESTful APIs",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "6:00 PM"
+    }
+  },
+  "45": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "State Management with Redux",
+      "description": "State Management with Redux",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "8:00 AM"
+    }
+  },
+  "46": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Async Operations in JavaScript",
+      "description": "Handling Async Operations in JavaScript",
+      "date": "9 Aug 2024",
+      "day": "Friday",
+      "time": "12:00 PM"
+    }
+  },
+  "47": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Optimizing React Performance",
+      "description": "Optimizing React Performance",
+      "date": "9 Aug 2024",
+      "day": "Friday",
+      "time": "9:00 AM"
+    }
+  },
+  "48": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to Docker",
+      "description": "Introduction to Docker",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "11:00 AM"
+    }
+  },
+  "49": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Version Control with Git",
+      "description": "Version Control with Git",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "2:00 PM"
+    }
+  },
+  "50": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with Netlify",
+      "description": "Deploying Applications with Netlify",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "5:00 PM"
+    }
+  },
+  "51": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with vercel",
+      "description": "Deploying Applications with vercel",
+      "date": "5 Aug 2024",
+      "day": "monday",
+      "time": "5:00 PM"
+    }
+  },
+  "52": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Container with most water",
+      "description": "Interview preparation with JavaScript batch 2",
+      "date": "5 Aug 2024",
+      "day": "monday",
+      "time": "7:00 AM"
+    }
+  },
+  "53": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Understanding Async/Await",
+      "description": "Deep dive into asynchronous JavaScript",
+      "date": "5 Aug 2024",
+      "day": "monday",
+      "time": "10:00 AM"
+    }
+  },
+  "54": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "React Hooks Workshop",
+      "description": "Hands-on workshop on React Hooks",
+      "date": "6 Aug 2024",
+      "day": "tuesday",
+      "time": "2:00 PM"
+    }
+  },
+  "55": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "JavaScript Closures Explained",
+      "description": "Exploring JavaScript closures",
+      "date": "6 Aug 2024",
+      "day": "tuesday",
+      "time": "9:00 AM"
+    }
+  },
+  "56": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "CSS Grid vs Flexbox",
+      "description": "Comparing CSS Grid and Flexbox",
+      "date": "5 Aug 2024",
+      "day": "monday",
+      "time": "11:00 AM"
+    }
+  },
+  "57": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to TypeScript",
+      "description": "Introduction to TypeScript",
+      "date": "14 Aug 2024",
+      "day": "wednesday",
+      "time": "3:00 PM"
+    }
+  },
+  "58": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Node.js and Express Basics",
+      "description": "Basics of Node.js and Express",
+      "date": "14 Aug 2024",
+      "day": "wednesday",
+      "time": "10:00 AM"
+    }
+  },
+  "59": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Testing in React",
+      "description": "Testing techniques in React",
+      "date": "5 Aug 2024",
+      "day": "monday",
+      "time": "1:00 PM"
+    }
+  },
+  "60": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "GraphQL Fundamentals",
+      "description": "Fundamentals of GraphQL",
+      "date": "6 Aug 2024",
+      "day": "tuesday",
+      "time": "4:00 PM"
+    }
+  },
+  "61": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Building RESTful APIs",
+      "description": "Building RESTful APIs",
+      "date": "14 Aug 2024",
+      "day": "wednesday",
+      "time": "6:00 PM"
+    }
+  },
+  "62": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "State Management with Redux",
+      "description": "State Management with Redux",
+      "date": "9 Aug 2024",
+      "day": "friday",
+      "time": "8:00 AM"
+    }
+  },
+  "63": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Async Operations in JavaScript",
+      "description": "Handling Async Operations in JavaScript",
+      "date": "9 Aug 2024",
+      "day": "Friday",
+      "time": "12:00 PM"
+    }
+  },
+  "64": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Optimizing React Performance",
+      "description": "Optimizing React Performance",
+      "date": "10 Aug 2024",
+      "day": "saturday",
+      "time": "9:00 AM"
+    }
+  },
+  "65": {
+    "type": "article",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Introduction to Docker",
+      "description": "Introduction to Docker",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "11:00 AM"
+    }
+  },
+  "66": {
+    "type": "workshop",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Version Control with Git",
+      "description": "Version Control with Git",
+      "date": "10 Aug 2024",
+      "day": "Saturday",
+      "time": "2:00 PM"
+    }
+  },
+  "67": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with Netlify",
+      "description": "Deploying Applications with Netlify",
+      "date": "8 Aug 2024",
+      "day": "Thursday",
+      "time": "5:00 PM"
+    }
+  },
+  "69": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with vercel",
+      "description": "Deploying Applications with vercel",
+      "date": "11 Aug 2024",
+      "day": "monday",
+      "time": "5:00 PM"
+    }
+  },
+  "70": {
+    "type": "video",
+    "icon": "IoVideocam",
+    "event": {
+      "title": "Deploying with vercel",
+      "description": "Deploying Applications with vercel",
+      "date": "4 Aug 2024",
+      "day": "monday",
+      "time": "5:00 PM"
+    }
   }
-  
+}
