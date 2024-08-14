@@ -9,7 +9,7 @@ const Data = [
     id: 1,
     image: Image1,
     title:
-      "Introduction to Machine Learning with Python: Understanding Algorithms and Data ",
+      "Introduction to Machine Learning with Python: Understanding Data Structure Algorithms and Data ",
     type: "Course",
     lessons: 109,
   },
