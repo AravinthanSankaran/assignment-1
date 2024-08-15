@@ -3,7 +3,7 @@ import React from "react";
 function loading() {
   return (
     <div>
-      <div class="text-center">
+      <div class="text-center justify-center">
         <div role="status">
           <svg
             aria-hidden="true"

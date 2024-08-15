@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
+
 import Image1 from "../../../public/images/learning.jpg";
 
 const Data = [
@@ -17,7 +19,7 @@ const Data = [
     id: 2,
     image: Image1,
     title:
-      "Feature Engineering and Selection: Enhancing Model Performance in Python",
+      "Feature Engineering and Selection: Enhancing Model Performance in java",
     type: "Course",
     lessons: 109,
   },
@@ -25,7 +27,7 @@ const Data = [
     id: 3,
     image: Image1,
     title:
-      "Model Evaluation and Optimization: Hyperparameter Tuning and Cross-Validation in Python",
+      "Model Evaluation and Optimization: Hyperparameter Tuning and Cross-Validation in c++",
     type: "Test",
     lessons: "Scheduled",
   },
@@ -33,7 +35,7 @@ const Data = [
     id: 4,
     image: Image1,
     title:
-      "Deep Learning with TensorFlow and Keras: Building Neural Networks in Python",
+      "Deep Learning with TensorFlow and Keras: Building Neural Networks in c",
     type: "Test",
     lessons: "Scheduled",
   },
@@ -41,7 +43,7 @@ const Data = [
     id: 5,
     image: Image1,
     title:
-      "Deploying Machine Learning Models: From Development to Production with Python",
+      "Deploying Machine Learning Models: From Development to Production with opencv",
     type: "Test",
     lessons: "Scheduled",
   },
@@ -69,13 +71,16 @@ function Filter() {
   return (
     <section id="project" className="min-h-screen">
       <div className="container mx-auto ">
-        <h2 className="text-2xl md:mt-5 text-white font-semibold">
-          Content{" "}
-          <span className="text-sm text-white bg-bgfilternumber p-2 rounded-full">
+        <div className="flex ">
+          <div className="text-2xl md:mt-5 text-white font-semibold">
+            Content
+          </div>
+          <div className="text-sm text-white bg-bgfilternumber p-[6px] md:mt-5 ml-2 w-8 h-8 text-center  rounded-full">
             {filteredItems.length}
-          </span>
-        </h2>
-        <div className="flex items-center mb-4 border-[0.1px] p-2 mt-4">
+          </div>
+        </div>
+
+        <div className="flex items-center mb-4 border rounded-lg p-2 mt-4">
           <div className="relative flex-grow mr-4">
             <input
               type="text"
@@ -89,9 +94,19 @@ function Filter() {
           <div className="relative">
             <button
               onClick={toggleDropdown}
-              className="text-filtertext font-roboto bg-bgfilterbtn font-semibold text-sm px-4 py-2 rounded-md cursor-pointer"
+              className="text-filtertext flex font-sans bg-bgfilterbtn font-bold text-sm border border-filtertext px-4 py-2 rounded-md cursor-pointer"
             >
-              {filter === "Filter By Type" ? "FILTER BY TYPE" : filter}
+              <span>
+                {filter === "Filter By Type" ? (
+                  <>
+                    <span className="hidden md:inline">FILTER BY TYPE</span>
+                    <span className="inline md:hidden">FILTERED</span>
+                  </>
+                ) : (
+                  filter
+                )}
+              </span>
+              <IoIosArrowDown className="mt-1 ml-1" />
             </button>
             {dropdownVisible && (
               <div className="absolute right-0 mt-2 w-64 bg-primary border border-gray-300 rounded-md shadow-lg">
@@ -119,7 +134,7 @@ function Filter() {
             )}
           </div>
         </div>
-        <div className="flex flex-col gap-8 overflow-y-auto h-[500px]">
+        <div className="flex flex-col border rounded-2xl gap-8 overflow-y-auto h-[500px]">
           {filteredItems.map((data) => (
             <div
               key={data.id}
