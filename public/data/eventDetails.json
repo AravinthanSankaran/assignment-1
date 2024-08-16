@@ -126,8 +126,8 @@
     "event": {
       "title": "Async Operations in JavaScript",
       "description": "Handling Async Operations in JavaScript",
-      "date": "16 Aug 2024",
-      "day": "Friday",
+      "date": "17 Aug 2024",
+      "day": "Saturday",
       "time": "12:00 PM"
     }
   },
@@ -148,8 +148,8 @@
     "event": {
       "title": "Introduction to Docker",
       "description": "Introduction to Docker",
-      "date": "17 Aug 2024",
-      "day": "Saturday",
+      "date": "16 Aug 2024",
+      "day": "Friday",
       "time": "11:00 AM"
     }
   },
@@ -373,7 +373,7 @@
       "time": "5:00 PM"
     }
   },
-  "34": {
+  "35": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -384,7 +384,7 @@
       "time": "5:00 PM"
     }
   },
-  "35": {
+  "36": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -395,7 +395,7 @@
       "time": "7:00 AM"
     }
   },
-  "36": {
+  "37": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -406,7 +406,7 @@
       "time": "10:00 AM"
     }
   },
-  "37": {
+  "38": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -417,7 +417,7 @@
       "time": "2:00 PM"
     }
   },
-  "38": {
+  "39": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -428,7 +428,7 @@
       "time": "9:00 AM"
     }
   },
-  "39": {
+  "40": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -439,7 +439,7 @@
       "time": "11:00 AM"
     }
   },
-  "40": {
+  "41": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -450,7 +450,7 @@
       "time": "3:00 PM"
     }
   },
-  "41": {
+  "42": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -461,7 +461,7 @@
       "time": "10:00 AM"
     }
   },
-  "42": {
+  "43": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -472,7 +472,7 @@
       "time": "1:00 PM"
     }
   },
-  "43": {
+  "44": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -483,7 +483,7 @@
       "time": "4:00 PM"
     }
   },
-  "44": {
+  "45": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -494,7 +494,7 @@
       "time": "6:00 PM"
     }
   },
-  "45": {
+  "46": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -505,7 +505,7 @@
       "time": "8:00 AM"
     }
   },
-  "46": {
+  "47": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -516,7 +516,7 @@
       "time": "12:00 PM"
     }
   },
-  "47": {
+  "48": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -527,7 +527,7 @@
       "time": "9:00 AM"
     }
   },
-  "48": {
+  "49": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -538,7 +538,7 @@
       "time": "11:00 AM"
     }
   },
-  "49": {
+  "50": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -549,7 +549,7 @@
       "time": "2:00 PM"
     }
   },
-  "50": {
+  "51": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -560,7 +560,7 @@
       "time": "5:00 PM"
     }
   },
-  "51": {
+  "52": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -571,7 +571,7 @@
       "time": "5:00 PM"
     }
   },
-  "52": {
+  "53": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -582,7 +582,7 @@
       "time": "7:00 AM"
     }
   },
-  "53": {
+  "54": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -593,7 +593,7 @@
       "time": "10:00 AM"
     }
   },
-  "54": {
+  "55": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -604,7 +604,7 @@
       "time": "2:00 PM"
     }
   },
-  "55": {
+  "56": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -615,7 +615,7 @@
       "time": "9:00 AM"
     }
   },
-  "56": {
+  "57": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -626,7 +626,7 @@
       "time": "11:00 AM"
     }
   },
-  "57": {
+  "58": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -637,7 +637,7 @@
       "time": "3:00 PM"
     }
   },
-  "58": {
+  "59": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -648,7 +648,7 @@
       "time": "10:00 AM"
     }
   },
-  "59": {
+  "60": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -659,7 +659,7 @@
       "time": "1:00 PM"
     }
   },
-  "60": {
+  "61": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -670,7 +670,7 @@
       "time": "4:00 PM"
     }
   },
-  "61": {
+  "62": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -681,7 +681,7 @@
       "time": "6:00 PM"
     }
   },
-  "62": {
+  "63": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -692,7 +692,7 @@
       "time": "8:00 AM"
     }
   },
-  "63": {
+  "64": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -703,7 +703,7 @@
       "time": "12:00 PM"
     }
   },
-  "64": {
+  "65": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {
@@ -714,7 +714,7 @@
       "time": "9:00 AM"
     }
   },
-  "65": {
+  "66": {
     "type": "article",
     "icon": "IoVideocam",
     "event": {
@@ -725,7 +725,7 @@
       "time": "11:00 AM"
     }
   },
-  "66": {
+  "67": {
     "type": "workshop",
     "icon": "IoVideocam",
     "event": {
@@ -736,7 +736,7 @@
       "time": "2:00 PM"
     }
   },
-  "67": {
+  "68": {
     "type": "video",
     "icon": "IoVideocam",
     "event": {

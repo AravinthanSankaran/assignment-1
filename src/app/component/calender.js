@@ -85,7 +85,7 @@ export default function Calendar() {
   };
 
   return (
-    <div className="w-full text-white p-5 font-roboto h-[75vh] overflow-y-auto ">
+    <div className="w-full lg:w-[750px] xl:w-[1000px] h-[75vh] text-white p-5 font-roboto overflow-y-auto ">
       <FullCalendar
         plugins={[dayGridPlugin]}
         initialView={view}
@@ -97,8 +97,7 @@ export default function Calendar() {
         events={events}
         eventContent={renderEventContent}
         eventClick={handleEventClick}
-        contentHeight="auto"
-        height="100%"
+      
       />
       {isPopupOpen && (
         <>
