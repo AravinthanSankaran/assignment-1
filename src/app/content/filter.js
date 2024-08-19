@@ -80,14 +80,14 @@ function Filter() {
           </div>
         </div>
 
-        <div className="flex items-center mb-4 border rounded-lg p-2 mt-4">
+        <div className="flex items-center mb-4 border border-[#222B45] rounded-lg p-2 mt-4">
           <div className="relative flex-grow mr-4">
             <input
               type="text"
               placeholder="Search..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-10 pr-4 py-2 border w-full text-white border-gray-300 bg-primary rounded-md"
+              className="pl-10 pr-4 py-2 border w-full text-white border-[#222B45] bg-primary rounded-md focus:border-btnsignup focus:ring-0"
             />
             <FaSearch className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
           </div>
@@ -109,23 +109,23 @@ function Filter() {
               <IoIosArrowDown className="mt-1 ml-1" />
             </button>
             {dropdownVisible && (
-              <div className="absolute right-0 mt-2 w-64 bg-primary border border-gray-300 rounded-md shadow-lg">
-                <ul className="py-1">
+              <div className="absolute right-0 mt-2 w-64 bg-primary border border-[#222B45] rounded-md shadow-lg">
+                <ul className="py-2">
                   <li
                     onClick={() => handleSelect("Filter By Type")}
-                    className="block px-4 py-2 text-sm text-white hover:bg-btnsignuphover cursor-pointer"
+                    className="block px-4 py-4 text-sm text-white hover:bg-btnsignuphover cursor-pointer"
                   >
                     All
                   </li>
                   <li
                     onClick={() => handleSelect("Course")}
-                    className="block px-4 py-2 text-sm text-white hover:bg-btnsignuphover cursor-pointer"
+                    className="block px-4 py-4 text-sm text-white hover:bg-btnsignuphover cursor-pointer"
                   >
                     Course
                   </li>
                   <li
                     onClick={() => handleSelect("Test")}
-                    className="block px-4 py-2 text-sm text-white hover:bg-btnsignuphover cursor-pointer"
+                    className="block px-4 py-4 text-sm text-white hover:bg-btnsignuphover cursor-pointer"
                   >
                     Test
                   </li>
@@ -149,7 +149,7 @@ function Filter() {
                   height={100}
                 />
               </div>
-              <div className="flex justify-between px-2">
+              <div className="flex justify-between px-2 ml-3">
                 <div>
                   <h3 className="text-base font-semibold">{data.title}</h3>
                   <p>

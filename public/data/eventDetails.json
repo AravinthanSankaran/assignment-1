@@ -1,7 +1,7 @@
 {
   "1": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Container with most water",
       "description": "Interview preparation with JavaScript batch 2",
@@ -12,7 +12,7 @@
   },
   "2": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Understanding Async/Await",
       "description": "Deep dive into asynchronous JavaScript",
@@ -23,7 +23,7 @@
   },
   "3": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "React Hooks Workshop",
       "description": "Hands-on workshop on React Hooks",
@@ -34,7 +34,7 @@
   },
   "4": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "JavaScript Closures Explained",
       "description": "Exploring JavaScript closures",
@@ -45,7 +45,7 @@
   },
   "5": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "CSS Grid vs Flexbox",
       "description": "Comparing CSS Grid and Flexbox",
@@ -56,7 +56,7 @@
   },
   "6": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to TypeScript",
       "description": "Introduction to TypeScript",
@@ -67,7 +67,7 @@
   },
   "7": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Node.js and Express Basics",
       "description": "Basics of Node.js and Express",
@@ -78,7 +78,7 @@
   },
   "8": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Testing in React",
       "description": "Testing techniques in React",
@@ -89,7 +89,7 @@
   },
   "9": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "GraphQL Fundamentals",
       "description": "Fundamentals of GraphQL",
@@ -100,7 +100,7 @@
   },
   "10": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Building RESTful APIs",
       "description": "Building RESTful APIs",
@@ -111,7 +111,7 @@
   },
   "11": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "State Management with Redux",
       "description": "State Management with Redux",
@@ -122,7 +122,7 @@
   },
   "12": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Async Operations in JavaScript",
       "description": "Handling Async Operations in JavaScript",
@@ -133,7 +133,7 @@
   },
   "13": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Optimizing React Performance",
       "description": "Optimizing React Performance",
@@ -144,7 +144,7 @@
   },
   "14": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to Docker",
       "description": "Introduction to Docker",
@@ -155,7 +155,7 @@
   },
   "15": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Version Control with Git",
       "description": "Version Control with Git",
@@ -166,7 +166,7 @@
   },
   "16": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with Netlify",
       "description": "Deploying Applications with Netlify",
@@ -177,7 +177,7 @@
   },
   "17": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with vercel",
       "description": "Deploying Applications with vercel",
@@ -188,7 +188,7 @@
   },
   "18": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Container with most water",
       "description": "Interview preparation with JavaScript batch 2",
@@ -199,7 +199,7 @@
   },
   "19": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Understanding Async/Await",
       "description": "Deep dive into asynchronous JavaScript",
@@ -210,7 +210,7 @@
   },
   "20": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "React Hooks Workshop",
       "description": "Hands-on workshop on React Hooks",
@@ -221,7 +221,7 @@
   },
   "21": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "JavaScript Closures Explained",
       "description": "Exploring JavaScript closures",
@@ -232,7 +232,7 @@
   },
   "22": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "CSS Grid vs Flexbox",
       "description": "Comparing CSS Grid and Flexbox",
@@ -243,7 +243,7 @@
   },
   "23": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to TypeScript",
       "description": "Introduction to TypeScript",
@@ -254,7 +254,7 @@
   },
   "24": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Node.js and Express Basics",
       "description": "Basics of Node.js and Express",
@@ -265,7 +265,7 @@
   },
   "25": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Testing in React",
       "description": "Testing techniques in React",
@@ -276,7 +276,7 @@
   },
   "26": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "GraphQL Fundamentals",
       "description": "Fundamentals of GraphQL",
@@ -287,7 +287,7 @@
   },
   "27": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Building RESTful APIs",
       "description": "Building RESTful APIs",
@@ -298,7 +298,7 @@
   },
   "28": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "State Management with Redux",
       "description": "State Management with Redux",
@@ -309,7 +309,7 @@
   },
   "29": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Async Operations in JavaScript",
       "description": "Handling Async Operations in JavaScript",
@@ -320,7 +320,7 @@
   },
   "30": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Optimizing React Performance",
       "description": "Optimizing React Performance",
@@ -331,7 +331,7 @@
   },
   "31": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to Docker",
       "description": "Introduction to Docker",
@@ -342,7 +342,7 @@
   },
   "32": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Version Control with Git",
       "description": "Version Control with Git",
@@ -353,7 +353,7 @@
   },
   "33": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with Netlify",
       "description": "Deploying Applications with Netlify",
@@ -364,7 +364,7 @@
   },
   "34": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with vercel",
       "description": "Deploying Applications with vercel",
@@ -375,7 +375,7 @@
   },
   "35": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with vercel",
       "description": "Deploying Applications with vercel",
@@ -386,7 +386,7 @@
   },
   "36": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Container with most water",
       "description": "Interview preparation with JavaScript batch 2",
@@ -397,7 +397,7 @@
   },
   "37": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Understanding Async/Await",
       "description": "Deep dive into asynchronous JavaScript",
@@ -408,7 +408,7 @@
   },
   "38": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "React Hooks Workshop",
       "description": "Hands-on workshop on React Hooks",
@@ -419,7 +419,7 @@
   },
   "39": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "JavaScript Closures Explained",
       "description": "Exploring JavaScript closures",
@@ -430,7 +430,7 @@
   },
   "40": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "CSS Grid vs Flexbox",
       "description": "Comparing CSS Grid and Flexbox",
@@ -441,7 +441,7 @@
   },
   "41": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to TypeScript",
       "description": "Introduction to TypeScript",
@@ -452,7 +452,7 @@
   },
   "42": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Node.js and Express Basics",
       "description": "Basics of Node.js and Express",
@@ -463,7 +463,7 @@
   },
   "43": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Testing in React",
       "description": "Testing techniques in React",
@@ -474,7 +474,7 @@
   },
   "44": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "GraphQL Fundamentals",
       "description": "Fundamentals of GraphQL",
@@ -485,7 +485,7 @@
   },
   "45": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Building RESTful APIs",
       "description": "Building RESTful APIs",
@@ -496,7 +496,7 @@
   },
   "46": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "State Management with Redux",
       "description": "State Management with Redux",
@@ -507,7 +507,7 @@
   },
   "47": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Async Operations in JavaScript",
       "description": "Handling Async Operations in JavaScript",
@@ -518,7 +518,7 @@
   },
   "48": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Optimizing React Performance",
       "description": "Optimizing React Performance",
@@ -529,7 +529,7 @@
   },
   "49": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to Docker",
       "description": "Introduction to Docker",
@@ -540,7 +540,7 @@
   },
   "50": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Version Control with Git",
       "description": "Version Control with Git",
@@ -551,7 +551,7 @@
   },
   "51": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with Netlify",
       "description": "Deploying Applications with Netlify",
@@ -562,7 +562,7 @@
   },
   "52": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with vercel",
       "description": "Deploying Applications with vercel",
@@ -573,7 +573,7 @@
   },
   "53": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Container with most water",
       "description": "Interview preparation with JavaScript batch 2",
@@ -584,7 +584,7 @@
   },
   "54": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Understanding Async/Await",
       "description": "Deep dive into asynchronous JavaScript",
@@ -595,7 +595,7 @@
   },
   "55": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "React Hooks Workshop",
       "description": "Hands-on workshop on React Hooks",
@@ -606,7 +606,7 @@
   },
   "56": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "JavaScript Closures Explained",
       "description": "Exploring JavaScript closures",
@@ -617,7 +617,7 @@
   },
   "57": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "CSS Grid vs Flexbox",
       "description": "Comparing CSS Grid and Flexbox",
@@ -628,7 +628,7 @@
   },
   "58": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to TypeScript",
       "description": "Introduction to TypeScript",
@@ -639,7 +639,7 @@
   },
   "59": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Node.js and Express Basics",
       "description": "Basics of Node.js and Express",
@@ -650,7 +650,7 @@
   },
   "60": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Testing in React",
       "description": "Testing techniques in React",
@@ -661,7 +661,7 @@
   },
   "61": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "GraphQL Fundamentals",
       "description": "Fundamentals of GraphQL",
@@ -672,7 +672,7 @@
   },
   "62": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Building RESTful APIs",
       "description": "Building RESTful APIs",
@@ -683,7 +683,7 @@
   },
   "63": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "State Management with Redux",
       "description": "State Management with Redux",
@@ -694,7 +694,7 @@
   },
   "64": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Async Operations in JavaScript",
       "description": "Handling Async Operations in JavaScript",
@@ -705,7 +705,7 @@
   },
   "65": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Optimizing React Performance",
       "description": "Optimizing React Performance",
@@ -716,7 +716,7 @@
   },
   "66": {
     "type": "article",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Introduction to Docker",
       "description": "Introduction to Docker",
@@ -727,7 +727,7 @@
   },
   "67": {
     "type": "workshop",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Version Control with Git",
       "description": "Version Control with Git",
@@ -738,7 +738,7 @@
   },
   "68": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with Netlify",
       "description": "Deploying Applications with Netlify",
@@ -749,7 +749,7 @@
   },
   "69": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with vercel",
       "description": "Deploying Applications with vercel",
@@ -760,7 +760,7 @@
   },
   "70": {
     "type": "video",
-    "icon": "IoVideocam",
+
     "event": {
       "title": "Deploying with vercel",
       "description": "Deploying Applications with vercel",
